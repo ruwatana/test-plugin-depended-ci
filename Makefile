@@ -7,7 +7,6 @@ build-for-testing:
 	xcodebuild build-for-testing \
 		-project ${PROJECT_PATH} \
 		-scheme ${SCHEME} \
-		-sdk iphonesimulator \
 		-destination 'platform=iOS Simulator,name=iPhone 16,OS=18.2' \
 		-skipPackagePluginValidation
 
@@ -16,6 +15,5 @@ test-without-building:
 	xcodebuild test-without-building \
 		-project ${PROJECT_PATH} \
 		-scheme ${SCHEME} \
-		-sdk iphonesimulator \
 		-destination 'platform=iOS Simulator,name=iPhone 16,OS=18.2' \
 		-resultBundlePath TestResults

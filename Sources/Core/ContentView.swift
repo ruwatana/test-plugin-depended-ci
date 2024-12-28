@@ -5,6 +5,7 @@
 //  Created by ruwatana on 2024/07/21.
 //
 
+import LicenseList
 import SwiftUI
 
 public struct ContentView: View {

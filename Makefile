@@ -1,5 +1,5 @@
 MAKEFILE_DIR = $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PROJECT_PATH = ${MAKEFILE_DIR}/Test.xcodeproj
+PROJECT_PATH = ${MAKEFILE_DIR}/App/Test.xcodeproj
 SCHEME = Test
 
 .PHONY: build-for-testing

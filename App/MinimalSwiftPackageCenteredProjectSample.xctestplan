@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "FE85C75D-2276-4444-ADFB-AAB47D764165",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MinimalSwiftPackageCenteredProjectSample.xcodeproj",
+        "identifier" : "0130EEC62C4CF8B6006A4F19",
+        "name" : "MinimalSwiftPackageCenteredProjectSampleUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "CoreTests",
+        "name" : "CoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}
